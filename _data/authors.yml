@@ -1,18 +1,10 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Igor Sadalski:
+  name        : "Igor Sadalski"
+  uri         : "https://igor-sadalski.github.io"
+  email       : "igor.sadalski@gmail.com"
+  bio         : "Machine Learning Scientist at Somite.ai. MSc in Computer Science (Machine Learning) from Imperial College London."
+  avatar      : "profile.png"
+  github      : "igor-sadalski"
+  linkedin    : "igorsadalski"

@@ -1,152 +1,253 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Igor Sadalski",
+    "email": "igor.sadalski@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://igor-sadalski.github.io",
+    "summary": "Machine Learning Scientist at Somite.ai. MSc in Computer Science (Machine Learning) from Imperial College London. Research interests in foundational models, transformers, and genomic AI.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Boston, MA",
       "countryCode": "US",
-      "region": ""
+      "region": "Massachusetts"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "igor-sadalski",
+        "url": "https://github.com/igor-sadalski"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "igorsadalski",
+        "url": "https://linkedin.com/in/igorsadalski"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Somite.ai",
+      "position": "Machine Learning Scientist",
+      "website": "",
+      "startDate": "2024-09",
+      "endDate": "",
+      "summary": "Architected spot-instance, SLURM-based training infrastructure integrating FSDP, mixed precision, and Flash Attention across tens of MI325X/H200 GPUs, enabling scalable, multi-node training of billion-parameter transformers on proprietary data. Led curation of genomic data and engineered distributed data pipeline to process terabytes of data, achieving nearly 3x speedup. Designed agentic AI pipelines and investigated scaling laws for transformer and VAE-based models on genomic data.",
+      "highlights": [
+        "Architected spot-instance, SLURM-based training infrastructure integrating FSDP, mixed precision, and Flash Attention across tens of MI325X/H200 GPUs, enabling scalable, multi-node training of billion-parameter transformers",
+        "Led curation of genomic data scraped from the internet and engineered distributed data pipeline to process terabytes of data, achieving nearly 3x speedup",
+        "Designed agentic AI pipelines to automate data curation and new agentic approaches for advancing cell annotation",
+        "Investigated scaling laws for transformer and VAE-based models on genomic data and benchmarked encoding strategies, generating insights leading to work presented at ICML Workshop '25 and submitted to Nature Biotechnology",
+        "Joined as the 6th employee at a Harvard-MIT academic spinoff developing foundation models for the human cell ($60M+ in funding)"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Imperial College London",
+      "area": "MSc Computer Science (Machine Learning)",
+      "studyType": "Master of Science",
+      "startDate": "2023-09",
+      "endDate": "2024-09",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Graph-Based Learning",
+        "Software Engineering for ML Systems",
+        "Natural Language Processing"
+      ],
+      "thesis": "Generative Modeling with Efficient Transformers for Pro-Active Bus Routing"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Imperial College London",
+      "area": "BEng Mechanical Engineering (Robotics)",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2020-10",
+      "endDate": "2023-06",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Systems Frameworks",
+      "level": "",
+      "keywords": [
+        "GCP Vertex",
+        "AWS PCS",
+        "Git",
+        "Docker",
+        "Linux",
+        "SLURM"
+      ]
+    },
+    {
+      "name": "ML Frameworks",
+      "level": "",
+      "keywords": [
+        "PyTorch",
+        "Hugging Face",
+        "DeepSpeed",
+        "Flash Attention",
+        "FSDP",
+        "DDP",
+        "mixed precision",
+        "CUDA",
+        "ROCM",
+        "LangChain",
+        "Optuna",
+        "composer",
+        "WandB",
+        "numba",
+        "FastAPI"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Measurement noise scaling laws for cellular representation learning",
+      "publisher": "Nature Biotechnology (in preparation)",
+      "releaseDate": "",
+      "website": "",
+      "summary": "Co-first author with Gokul Gowri. In preparation for Nature Biotechnology.",
+      "authors": ["Gokul Gowri", "Igor Sadalski", "Dan Raviv", "Peng Yin", "Jonathan Rosenfeld", "Allon Klein"]
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Encoding Strategies for Single-Cell Foundational Models: A Large-Scale Benchmark of Gene and Expression Tokenization",
+      "publisher": "ICML '26 (in preparation)",
+      "releaseDate": "",
+      "website": "",
+      "summary": "In preparation for ICML '26.",
+      "authors": ["Igor Sadalski"]
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Scaling up Measurement Noise Scaling Laws",
+      "publisher": "ICML Workshop on Multi-modal Foundational Models for Life Sciences '25",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Presented at ICML Workshop on Multi-modal Foundational Models for Life Sciences '25.",
+      "authors": ["Igor Sadalski", "Dan Raviv", "Jonathan Rosenfeld", "Allon Klein", "Gokul Gowri"]
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Generative Modelling of Residuals for Real-Time Risk-Sensitive Safety with Discrete-Time Control Barrier Functions",
+      "publisher": "International Conference on Robotics and Automation '24",
+      "releaseDate": "2024",
+      "website": "",
+      "summary": "Published at ICRA '24.",
+      "authors": ["Ryan K. Cosner", "Igor Sadalski", "Jana K. Woo", "Preston Culbertson", "Aaron D. Ames"]
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Weekly classes for community college students",
+      "institution": "Open Avenues",
+      "date": "2024-09",
+      "role": "Volunteer Teacher",
+      "description": "Designed and delivered weekly classes for community college students across the US."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Polish AI Olympiad",
+      "institution": "Polish AI Olympiad",
+      "date": "2024-02",
+      "role": "Volunteer",
+      "description": "Helped develop one of the questions (on Implicit Neural Representations) for the Polish AI Olympiad, a national competition for high school students in AI."
     }
   ],
-  "portfolio": [
+  "awards": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "title": "Fulbright Scholarship",
+      "date": "2025",
+      "awarder": "Fulbright Program",
+      "summary": "One of only three people in Poland (rejected due to visa issues)"
+    },
+    {
+      "title": "MSc Distinction",
+      "date": "2024",
+      "awarder": "Imperial College London",
+      "summary": "Highest classification for UK master's degree"
+    },
+    {
+      "title": "BEng First Class Honours",
+      "date": "2023",
+      "awarder": "Imperial College London",
+      "summary": "Highest classification for UK bachelor's degree"
+    },
+    {
+      "title": "Caltech SURF",
+      "date": "2023, 2024",
+      "awarder": "Caltech",
+      "summary": "10-week competitive research fellowship at Caltech"
+    },
+    {
+      "title": "Top student in Poland",
+      "date": "2020",
+      "awarder": "Polish Matriculation Exams",
+      "summary": "Perfect score in matriculation exams (a few hundred out of 250k students)"
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2018",
+      "awarder": "International Young Physicist Competition",
+      "summary": "Representing Poland"
+    }
+  ],
+  "leadership": [
+    {
+      "organization": "Imperial Driverless",
+      "position": "Founder",
+      "startDate": "2021-09",
+      "endDate": "2022-09",
+      "summary": "Founded and led team of 20+ students building software for an autonomous car, coordinated development across perception, planning, and control, and raced on the Silverstone F1 track."
+    },
+    {
+      "organization": "Imperial Data Science Society",
+      "position": "Vice President",
+      "startDate": "2021-09",
+      "endDate": "2022-09",
+      "summary": "Co-led operations and workshops for Imperial's largest academic club (1000+ members)."
+    }
+  ],
+  "research": [
+    {
+      "institution": "Harvard University",
+      "position": "Research Assistant",
+      "supervisor": "Prof. Stephanie Gil",
+      "startDate": "2024-04",
+      "endDate": "2024-09",
+      "summary": "Investigated techniques for performing sub-quadratic attention; based on this work, designed a long-context time series transformer-based model. The model was later used to proactively route shuttle buses around Harvard campus."
+    },
+    {
+      "institution": "Caltech",
+      "position": "Research Assistant",
+      "supervisor": "Prof. Aaron Ames",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
+      "summary": "Designed conditional variational autoencoders and diffusion models to obtain data-driven error estimates from flight data. These models were later used to improve drone flight performance and safety."
+    },
+    {
+      "institution": "Caltech",
+      "position": "Research Assistant",
+      "supervisor": "Prof. Aaron Ames",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "summary": "Sped up model predictive controller running on robotic hardware by rewriting matrix operations using optimized C++ library."
+    }
+  ],
+  "openSource": [
+    {
+      "name": "Stanford Biomni - General-Purpose Biomedical AI Agent",
+      "date": "2025",
+      "description": "Main contribution: Implemented state-of-the-art foundational models (ESM-2, Transformer, scGPT, STATE) with standardized interfaces."
+    },
+    {
+      "name": "Various projects at MIT Hackers Club (Sundai.ai)",
+      "date": "2024",
+      "description": "Created a multiplayer LLM-powered game using Next.js, TypeScript, Tailwind, Convex, and Vercel."
     }
   ]
 }
