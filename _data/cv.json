@@ -21,7 +21,7 @@
       {
         "network": "LinkedIn",
         "username": "igorsadalski",
-        "url": "https://linkedin.com/in/igorsadalski"
+        "url": "https://www.linkedin.com/in/igorsadalski"
       }
     ]
   },
@@ -32,14 +32,8 @@
       "website": "",
       "startDate": "2024-09",
       "endDate": "",
-      "summary": "Architected spot-instance, SLURM-based training infrastructure integrating FSDP, mixed precision, and Flash Attention across tens of MI325X/H200 GPUs, enabling scalable, multi-node training of billion-parameter transformers on proprietary data. Led curation of genomic data and engineered distributed data pipeline to process terabytes of data, achieving nearly 3x speedup. Designed agentic AI pipelines and investigated scaling laws for transformer and VAE-based models on genomic data.",
-      "highlights": [
-        "Architected spot-instance, SLURM-based training infrastructure integrating FSDP, mixed precision, and Flash Attention across tens of MI325X/H200 GPUs, enabling scalable, multi-node training of billion-parameter transformers",
-        "Led curation of genomic data scraped from the internet and engineered distributed data pipeline to process terabytes of data, achieving nearly 3x speedup",
-        "Designed agentic AI pipelines to automate data curation and new agentic approaches for advancing cell annotation",
-        "Investigated scaling laws for transformer and VAE-based models on genomic data and benchmarked encoding strategies, generating insights leading to work presented at ICML Workshop '25 and submitted to Nature Biotechnology",
-        "Joined as the 6th employee at a Harvard-MIT academic spinoff developing foundation models for the human cell ($60M+ in funding)"
-      ]
+      "summary": "Orchestrated large-scale distributed training and published papers working on multimodal foundational models for life sciences.",
+      "highlights": []
     }
   ],
   "education": [
@@ -69,41 +63,7 @@
       "courses": []
     }
   ],
-  "skills": [
-    {
-      "name": "Systems Frameworks",
-      "level": "",
-      "keywords": [
-        "GCP Vertex",
-        "AWS PCS",
-        "Git",
-        "Docker",
-        "Linux",
-        "SLURM"
-      ]
-    },
-    {
-      "name": "ML Frameworks",
-      "level": "",
-      "keywords": [
-        "PyTorch",
-        "Hugging Face",
-        "DeepSpeed",
-        "Flash Attention",
-        "FSDP",
-        "DDP",
-        "mixed precision",
-        "CUDA",
-        "ROCM",
-        "LangChain",
-        "Optuna",
-        "composer",
-        "WandB",
-        "numba",
-        "FastAPI"
-      ]
-    }
-  ],
+  "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
@@ -142,76 +102,9 @@
     }
   ],
   "presentations": [],
-  "teaching": [
-    {
-      "course": "Weekly classes for community college students",
-      "institution": "Open Avenues",
-      "date": "2024-09",
-      "role": "Volunteer Teacher",
-      "description": "Designed and delivered weekly classes for community college students across the US."
-    },
-    {
-      "course": "Polish AI Olympiad",
-      "institution": "Polish AI Olympiad",
-      "date": "2024-02",
-      "role": "Volunteer",
-      "description": "Helped develop one of the questions (on Implicit Neural Representations) for the Polish AI Olympiad, a national competition for high school students in AI."
-    }
-  ],
-  "awards": [
-    {
-      "title": "Fulbright Scholarship",
-      "date": "2025",
-      "awarder": "Fulbright Program",
-      "summary": "One of only three people in Poland (rejected due to visa issues)"
-    },
-    {
-      "title": "MSc Distinction",
-      "date": "2024",
-      "awarder": "Imperial College London",
-      "summary": "Highest classification for UK master's degree"
-    },
-    {
-      "title": "BEng First Class Honours",
-      "date": "2023",
-      "awarder": "Imperial College London",
-      "summary": "Highest classification for UK bachelor's degree"
-    },
-    {
-      "title": "Caltech SURF",
-      "date": "2023, 2024",
-      "awarder": "Caltech",
-      "summary": "10-week competitive research fellowship at Caltech"
-    },
-    {
-      "title": "Top student in Poland",
-      "date": "2020",
-      "awarder": "Polish Matriculation Exams",
-      "summary": "Perfect score in matriculation exams (a few hundred out of 250k students)"
-    },
-    {
-      "title": "Silver Medal",
-      "date": "2018",
-      "awarder": "International Young Physicist Competition",
-      "summary": "Representing Poland"
-    }
-  ],
-  "leadership": [
-    {
-      "organization": "Imperial Driverless",
-      "position": "Founder",
-      "startDate": "2021-09",
-      "endDate": "2022-09",
-      "summary": "Founded and led team of 20+ students building software for an autonomous car, coordinated development across perception, planning, and control, and raced on the Silverstone F1 track."
-    },
-    {
-      "organization": "Imperial Data Science Society",
-      "position": "Vice President",
-      "startDate": "2021-09",
-      "endDate": "2022-09",
-      "summary": "Co-led operations and workshops for Imperial's largest academic club (1000+ members)."
-    }
-  ],
+  "teaching": [],
+  "awards": [],
+  "leadership": [],
   "research": [
     {
       "institution": "Harvard University",

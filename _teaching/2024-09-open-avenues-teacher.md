@@ -10,3 +10,4 @@ location: "United States (online)"
 
 Designed and delivered weekly classes for community college students across the US as a volunteer teacher with Open Avenues.
 
+

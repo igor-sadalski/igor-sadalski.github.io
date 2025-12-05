@@ -12,3 +12,4 @@ authors: 'Ryan K. Cosner, Igor Sadalski, Jana K. Woo, Preston Culbertson, Aaron 
 ---
 This paper presents work on generative modeling of residuals for real-time risk-sensitive safety with discrete-time control barrier functions, conducted during research at Caltech with Prof. Aaron Ames.
 
+
