@@ -14,4 +14,34 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Disable hover effects and link behavior for publication titles -->
+<style>
+  /* Make publication titles bold and disable all link-like behavior */
+  .archive__item-title.publication-title {
+    font-weight: bold;
+    cursor: default;
+  }
+  
+  /* Prevent hover underline effect for publication titles */
+  .archive__item:hover .archive__item-title.publication-title {
+    text-decoration: none !important;
+  }
+  
+  /* Ensure publication titles have no pointer cursor or link styling */
+  .archive__item-title.publication-title strong {
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  /* Reduce spacing between excerpt and download links */
+  .archive__item-excerpt {
+    margin-bottom: 0.5em !important;
+  }
+  
+  /* Reduce top margin of download links paragraph that follows excerpt */
+  .archive__item-excerpt + p {
+    margin-top: -0.5em !important;
+  }
+</style>
+
 <!-- end custom head snippets -->
