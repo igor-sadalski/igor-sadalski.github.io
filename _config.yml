@@ -23,10 +23,10 @@ repository               : "igor-sadalski/igor-sadalski.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_pic.png"
   name             : "Igor Sadalski"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Scientist at Somite.ai. MSc in Computer Science (Machine Learning) from Imperial College London. Research interests in foundational models, transformers, and genomic AI."
+  bio              : "Machine Learning Scientist at Somite.ai, specializing in distrivbuted training and multi-modal foundational models for life sciences."
   location         : "Boston, MA"
   employer         : "Somite.ai"
   uri              : # URL
@@ -243,7 +243,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -259,7 +259,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -277,7 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -286,7 +286,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS

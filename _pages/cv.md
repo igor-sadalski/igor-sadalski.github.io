@@ -18,36 +18,35 @@ redirect_from:
 
 ## Research Experience
 
-**Research Assistant**, Harvard University (PI: Prof. Stephanie Gil)  
+**Visiting Researcher**, Harvard University (PI: Prof. Stephanie Gil)  
 *Apr. '24 – Sep. '24*
 
-* Investigated techniques for performing sub-quadratic attention; based on this work, I designed a long-context time series transformer-based model. The model was later used to proactively route shuttle buses around Harvard campus.
+* Investigated techniques for performing sub-quadratic attention in long-context time series transformer-based modeling.
 
-**Research Assistant**, Caltech (PI: Prof. Aaron Ames)  
+**Undergraduate Researcher**, Caltech (PI: Prof. Aaron Ames)  
 *Jun. '23 – Aug. '23*
 
-* Designed conditional variational autoencoders and diffusion models to obtain data-driven error estimates from flight data. These models were later used to improve drone flight performance and safety.
+* Designed conditional variational autoencoders and diffusion models for error quantification.
 
-**Research Assistant**, Caltech (PI: Prof. Aaron Ames)  
+**Undergraduate Researcher**, Caltech (PI: Prof. Aaron Ames)  
 *Jun. '22 – Aug. '22*
 
-* Sped up model predictive controller running on robotic hardware by rewriting matrix operations using optimized C++ library.
+* Sped up a model predictive controller running on robotic hardware by rewriting matrix operations using an optimized C++ library.
 
 ## Education
 
 **MSc Computer Science (Machine Learning)**, Imperial College London  
 *Sep. '23 – Sep. '24*
-
-*Selected Coursework*: Deep Learning, Reinforcement Learning, Graph-Based Learning, Software Engineering for ML Systems, Natural Language Processing.  
-*Thesis*: Generative Modeling with Efficient Transformers for Pro-Active Bus Routing.
+* Fulbright Scholar, Poland
+* Visiting researcher at Harvard
 
 **BEng Mechanical Engineering (Robotics)**, Imperial College London  
 *Oct. '20 – Jun. '23*
+* 2 x Caltech Summer Undergraduate Research Fellowship (SURF)  
 
 ## Open Source Contributions
 
 **Stanford Biomni - General-Purpose Biomedical AI Agent** - *Autumn '25*  
 Main contribution: Implemented state-of-the-art foundational models (ESM-2, Transformer, scGPT, STATE) with standardized interfaces.
 
-**Various projects at MIT Hackers Club (Sundai.ai)** - *Autumn '24*  
-Created a multiplayer LLM-powered game using Next.js, TypeScript, Tailwind, Convex, and Vercel.
+

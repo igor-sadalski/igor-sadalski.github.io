@@ -4,7 +4,7 @@
     "email": "igor.sadalski@gmail.com",
     "phone": "",
     "website": "https://igor-sadalski.github.io",
-    "summary": "Machine Learning Scientist at Somite.ai. MSc in Computer Science (Machine Learning) from Imperial College London. Research interests in foundational models, transformers, and genomic AI.",
+    "summary": "Machine Learning Scientist at Somite.ai. Working on multi-modal foundational models for life sciences.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -74,7 +74,14 @@
       "releaseDate": "",
       "website": "",
       "summary": "Co-first author with Gokul Gowri. In preparation for Nature Biotechnology.",
-      "authors": ["Gokul Gowri", "Igor Sadalski", "Dan Raviv", "Peng Yin", "Jonathan Rosenfeld", "Allon Klein"]
+      "authors": [
+        "Gokul Gowri",
+        "Igor Sadalski",
+        "Dan Raviv",
+        "Peng Yin",
+        "Jonathan Rosenfeld",
+        "Allon Klein"
+      ]
     },
     {
       "name": "Encoding Strategies for Single-Cell Foundational Models: A Large-Scale Benchmark of Gene and Expression Tokenization",
@@ -82,7 +89,9 @@
       "releaseDate": "",
       "website": "",
       "summary": "In preparation for ICML '26.",
-      "authors": ["Igor Sadalski"]
+      "authors": [
+        "Igor Sadalski"
+      ]
     },
     {
       "name": "Scaling up Measurement Noise Scaling Laws",
@@ -90,7 +99,13 @@
       "releaseDate": "2025",
       "website": "",
       "summary": "Presented at ICML Workshop on Multi-modal Foundational Models for Life Sciences '25.",
-      "authors": ["Igor Sadalski", "Dan Raviv", "Jonathan Rosenfeld", "Allon Klein", "Gokul Gowri"]
+      "authors": [
+        "Igor Sadalski",
+        "Dan Raviv",
+        "Jonathan Rosenfeld",
+        "Allon Klein",
+        "Gokul Gowri"
+      ]
     },
     {
       "name": "Generative Modelling of Residuals for Real-Time Risk-Sensitive Safety with Discrete-Time Control Barrier Functions",
@@ -98,7 +113,13 @@
       "releaseDate": "2024",
       "website": "",
       "summary": "Published at ICRA '24.",
-      "authors": ["Ryan K. Cosner", "Igor Sadalski", "Jana K. Woo", "Preston Culbertson", "Aaron D. Ames"]
+      "authors": [
+        "Ryan K. Cosner",
+        "Igor Sadalski",
+        "Jana K. Woo",
+        "Preston Culbertson",
+        "Aaron D. Ames"
+      ]
     }
   ],
   "presentations": [],
