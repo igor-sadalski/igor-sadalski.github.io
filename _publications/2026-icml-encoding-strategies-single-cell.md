@@ -1,11 +1,11 @@
 ---
-title: "When Task-Specific Learning Outperforms Transfer Learning: A Benchmark ofGene and Expression Encoding Strategies"
+title: "When Task-Specific Learning Outperforms Transfer Learning: A Benchmark of Gene and Expression Encoding Strategies"
 collection: publications
 category: preprints
 permalink: /publication/2026-icml-encoding-strategies-single-cell
-excerpt: 'Single-cell foundational models have emerged as a transformative approach for learning generalizable cellular representations, yet the relative effectiveness of different encoding strategies remains unclear. We present a systematic benchmark comparing gene and expression encoding methods used by state-of-the-art models.'
+excerpt: 'We present a systematic benchmark comparing gene and expression encoding strategies for single-cell foundational models by training models from scratch under controlled conditions, scaling to 10 million cells across 100 diverse datasets. Contrary to common assumptions, we find that pretrained embeddings from large protein models like ESM-2 consistently underperform task-specific learned embeddings. Our work provides clear empirical guidance for model design decisions and establishes a systematic benchmark for evaluating encoding strategies in single-cell foundational models.'
 date: 2025-11-27
-venue: 'submitted to ICML 2026'
+venue: 'preliminiary work'
 paperurl: ''
 authors: 'Igor Sadalski'
 ---
