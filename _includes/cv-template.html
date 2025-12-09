@@ -22,16 +22,17 @@
   }
   
   .cv-logo {
-    height: 24px;
+    height: 36px;
     width: auto;
     vertical-align: middle;
-    margin-right: 8px;
+    margin-left: 12px;
     display: inline-block;
   }
   
   .cv-item-subtitle {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 8px;
   }
 </style>
@@ -102,6 +103,7 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">
+            {{ education.institution }}
             {% if education.institution == "Harvard University" %}
               <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
             {% elsif education.institution == "Imperial College London" %}
@@ -111,7 +113,6 @@
             {% elsif education.institution == "Somite.ai" %}
               <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
             {% endif %}
-            {{ education.institution }}
           </div>
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
@@ -141,6 +142,7 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">
+            {{ work.company }}
             {% if work.company == "Harvard University" %}
               <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
             {% elsif work.company == "Imperial College London" %}
@@ -150,7 +152,6 @@
             {% elsif work.company == "Somite.ai" %}
               <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
             {% endif %}
-            {{ work.company }}
           </div>
           {% if work.summary %}
           <div class="cv-item-detail">{{ work.summary }}</div>
@@ -182,6 +183,7 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">
+            {{ research.institution }}{% if research.supervisor %} (PI: {{ research.supervisor }}){% endif %}
             {% if research.institution == "Harvard University" %}
               <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
             {% elsif research.institution == "Imperial College London" %}
@@ -191,7 +193,6 @@
             {% elsif research.institution == "Somite.ai" %}
               <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
             {% endif %}
-            {{ research.institution }}{% if research.supervisor %} (PI: {{ research.supervisor }}){% endif %}
           </div>
           {% if research.summary %}
           <div class="cv-item-detail">{{ research.summary }}</div>
@@ -289,6 +290,7 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">
+            {{ teaching.institution }}
             {% if teaching.institution == "Harvard University" %}
               <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
             {% elsif teaching.institution == "Imperial College London" %}
@@ -298,7 +300,6 @@
             {% elsif teaching.institution == "Somite.ai" %}
               <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
             {% endif %}
-            {{ teaching.institution }}
           </div>
           {% if teaching.role %}
           <div class="cv-item-detail">Role: {{ teaching.role }}</div>
