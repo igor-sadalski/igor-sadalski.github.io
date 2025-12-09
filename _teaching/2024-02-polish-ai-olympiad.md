@@ -11,3 +11,4 @@ location: "Poland"
 Helped develop one of the questions (on Implicit Neural Representations) for the Polish AI Olympiad, a national competition for high school students in AI.
 
 
+

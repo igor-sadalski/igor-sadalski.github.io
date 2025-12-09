@@ -1,4 +1,11 @@
 {% assign cv = site.data.cv %}
+{% include base_path %}
+
+{% if base_path == "" or base_path == nil %}
+  {% assign image_base = site.baseurl | default: "" %}
+{% else %}
+  {% assign image_base = base_path %}
+{% endif %}
 
 <style>
   .archive {
@@ -12,6 +19,20 @@
     .archive {
       width: 70%;
     }
+  }
+  
+  .cv-logo {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+    display: inline-block;
+  }
+  
+  .cv-item-subtitle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 </style>
 
@@ -80,7 +101,18 @@
           <div class="cv-item-date">{{ education.endDate }}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ education.institution }}</div>
+          <div class="cv-item-subtitle">
+            {% if education.institution == "Harvard University" %}
+              <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
+            {% elsif education.institution == "Imperial College London" %}
+              <img src="{{ '/images/imperial_college_logo.png' | prepend: image_base }}" alt="Imperial College London" class="cv-logo">
+            {% elsif education.institution == "Caltech" %}
+              <img src="{{ '/images/caltech_logo.png' | prepend: image_base }}" alt="Caltech" class="cv-logo">
+            {% elsif education.institution == "Somite.ai" %}
+              <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
+            {% endif %}
+            {{ education.institution }}
+          </div>
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
@@ -108,7 +140,18 @@
           <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ work.company }}</div>
+          <div class="cv-item-subtitle">
+            {% if work.company == "Harvard University" %}
+              <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
+            {% elsif work.company == "Imperial College London" %}
+              <img src="{{ '/images/imperial_college_logo.png' | prepend: image_base }}" alt="Imperial College London" class="cv-logo">
+            {% elsif work.company == "Caltech" %}
+              <img src="{{ '/images/caltech_logo.png' | prepend: image_base }}" alt="Caltech" class="cv-logo">
+            {% elsif work.company == "Somite.ai" %}
+              <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
+            {% endif %}
+            {{ work.company }}
+          </div>
           {% if work.summary %}
           <div class="cv-item-detail">{{ work.summary }}</div>
           {% endif %}
@@ -118,6 +161,40 @@
             <li>{{ highlight }}</li>
             {% endfor %}
           </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
+  {% if cv.research.size > 0 %}
+  <!-- Research Experience -->
+  <div class="cv-section">
+    <h2>Research Experience</h2>
+    <ul class="cv-list">
+      {% for research in cv.research %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ research.position }}</div>
+          <div class="cv-item-date">{{ research.startDate }}{% if research.endDate %} - {{ research.endDate }}{% endif %}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">
+            {% if research.institution == "Harvard University" %}
+              <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
+            {% elsif research.institution == "Imperial College London" %}
+              <img src="{{ '/images/imperial_college_logo.png' | prepend: image_base }}" alt="Imperial College London" class="cv-logo">
+            {% elsif research.institution == "Caltech" %}
+              <img src="{{ '/images/caltech_logo.png' | prepend: image_base }}" alt="Caltech" class="cv-logo">
+            {% elsif research.institution == "Somite.ai" %}
+              <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
+            {% endif %}
+            {{ research.institution }}{% if research.supervisor %} (PI: {{ research.supervisor }}){% endif %}
+          </div>
+          {% if research.summary %}
+          <div class="cv-item-detail">{{ research.summary }}</div>
           {% endif %}
         </div>
       </li>
@@ -211,7 +288,18 @@
           <div class="cv-item-date">{{ teaching.date | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ teaching.institution }}</div>
+          <div class="cv-item-subtitle">
+            {% if teaching.institution == "Harvard University" %}
+              <img src="{{ '/images/harvard_logo.png' | prepend: image_base }}" alt="Harvard University" class="cv-logo">
+            {% elsif teaching.institution == "Imperial College London" %}
+              <img src="{{ '/images/imperial_college_logo.png' | prepend: image_base }}" alt="Imperial College London" class="cv-logo">
+            {% elsif teaching.institution == "Caltech" %}
+              <img src="{{ '/images/caltech_logo.png' | prepend: image_base }}" alt="Caltech" class="cv-logo">
+            {% elsif teaching.institution == "Somite.ai" %}
+              <img src="{{ '/images/somite_logo.png' | prepend: image_base }}" alt="Somite.ai" class="cv-logo">
+            {% endif %}
+            {{ teaching.institution }}
+          </div>
           {% if teaching.role %}
           <div class="cv-item-detail">Role: {{ teaching.role }}</div>
           {% endif %}
