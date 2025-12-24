@@ -26,7 +26,7 @@ author:
   avatar           : "profile_pic.png"
   name             : "Igor Sadalski"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Scientist at Somite.ai, working on foundational models for life sciences and AI co-scientist."
+  bio              : "Machine Learning Scientist at Somite.ai, working on multimodal foundational models (for life sciences) and AI co-scientist."
   location         : "Boston, MA"
   employer         : "Somite.ai"
   uri              : # URL

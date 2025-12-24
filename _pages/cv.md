@@ -47,12 +47,15 @@ redirect_from:
 
 **MSc Computer Science (Machine Learning)**, Imperial College London<img src="{{ '/images/imperial_college_logo.png' | prepend: base_path }}" alt="Imperial College London" class="cv-logo">  
 *Sep. '23 – Sep. '24*
-* Fulbright Scholar, Poland
 * Visiting researcher at Harvard
 
 **BEng Mechanical Engineering (Robotics)**, Imperial College London<img src="{{ '/images/imperial_college_logo.png' | prepend: base_path }}" alt="Imperial College London" class="cv-logo">  
 *Oct. '20 – Jun. '23*
 * 2 x Caltech Summer Undergraduate Research Fellowship (SURF)  
+
+## Awards
+
+* Fulbright Scholar, Poland (declined)
 
 ## Open Source Contributions
 
