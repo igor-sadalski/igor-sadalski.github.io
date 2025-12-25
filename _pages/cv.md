@@ -45,11 +45,11 @@ redirect_from:
 
 ## Education
 
-**MSc Computer Science (Machine Learning)**, Imperial College London<img src="{{ '/images/imperial_college_logo.png' | prepend: base_path }}" alt="Imperial College London" class="cv-logo">  
+**MSc Computer Science (Machine Learning), with Distinction**, Imperial College London<img src="{{ '/images/imperial_college_logo.png' | prepend: base_path }}" alt="Imperial College London" class="cv-logo">  
 *Sep. '23 – Sep. '24*
 * Visiting researcher at Harvard
 
-**BEng Mechanical Engineering (Robotics)**, Imperial College London<img src="{{ '/images/imperial_college_logo.png' | prepend: base_path }}" alt="Imperial College London" class="cv-logo">  
+**BEng Mechanical Engineering (Robotics), First Class award**, Imperial College London<img src="{{ '/images/imperial_college_logo.png' | prepend: base_path }}" alt="Imperial College London" class="cv-logo">  
 *Oct. '20 – Jun. '23*
 * 2 x Caltech Summer Undergraduate Research Fellowship (SURF)  
 
