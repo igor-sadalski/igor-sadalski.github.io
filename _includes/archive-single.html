@@ -63,16 +63,16 @@
     {% endif %}
 
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Download Paper</a> | <a
+    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Paper link</a> | <a
         href="{{ post.slidesurl | relative_url }}">Download Slides</a> | <a href="{{ post.bibtexurl | relative_url }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Download Paper</a> | <a
+    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Paper link</a> | <a
         href="{{ post.slidesurl | relative_url }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Download Paper</a> | <a
+    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Paper link</a> | <a
         href="{{ post.bibtexurl | relative_url }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl %}
-    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Download Paper</a></p>
+    <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl | relative_url }}">Paper link</a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
     <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl | relative_url }}">Download Slides</a> | <a
         href="{{ post.bibtexurl | relative_url }}">Download Bibtex</a></p>
@@ -83,9 +83,9 @@
     {% elsif post.citation %}
     <p style="margin-top: -0.5em;">Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-    <p style="margin-top: -0.5em;"><a href="{{ post.paperurl | relative_url }}">Download Paper</a> | <a href="{{ post.bibtexurl | relative_url }}">Download Bibtex</a></p>
+    <p style="margin-top: -0.5em;"><a href="{{ post.paperurl | relative_url }}">Paper link</a> | <a href="{{ post.bibtexurl | relative_url }}">Download Bibtex</a></p>
     {% elsif post.paperurl %}
-    <p style="margin-top: -0.5em;"><a href="{{ post.paperurl | relative_url }}">Download Paper</a></p>
+    <p style="margin-top: -0.5em;"><a href="{{ post.paperurl | relative_url }}">Paper link</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
     <p style="margin-top: -0.5em;"><a href="{{ post.slidesurl | relative_url }}">Download Slides</a> | <a href="{{ post.bibtexurl | relative_url }}">Download Bibtex</a></p>
     {% elsif post.slidesurl %}

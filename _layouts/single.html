@@ -48,13 +48,13 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Download Paper</a> | <a href="{{ page.slidesurl | relative_url }}">Download Slides</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
+          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Paper link</a> | <a href="{{ page.slidesurl | relative_url }}">Download Slides</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Download Paper</a> | <a href="{{ page.slidesurl | relative_url }}">Download Slides</a></p>
+          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Paper link</a> | <a href="{{ page.slidesurl | relative_url }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Download Paper</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
+          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Paper link</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Download Paper</a></p>
+          <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl | relative_url }}">Paper link</a></p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl | relative_url }}">Download Slides</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
@@ -62,9 +62,9 @@ layout: default
         {% elsif page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller; margin-top: -0.5em;"><a href="{{ page.slidesurl | relative_url }}">Download Slides</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
         {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller; margin-top: -0.5em;"><a href="{{ page.paperurl | relative_url }}">Download Paper</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
+          <p style="font-size: smaller; margin-top: -0.5em;"><a href="{{ page.paperurl | relative_url }}">Paper link</a> | <a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
         {% elsif page.paperurl %}
-          <p style="font-size: smaller; margin-top: -0.5em;"><a href="{{ page.paperurl | relative_url }}">Download Paper</a></p>
+          <p style="font-size: smaller; margin-top: -0.5em;"><a href="{{ page.paperurl | relative_url }}">Paper link</a></p>
         {% elsif page.citation and page.bibtexurl %}
           <p style="font-size: smaller; margin-top: -0.5em;">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl | relative_url }}">Download Bibtex</a></p>
         {% elsif page.citation %}

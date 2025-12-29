@@ -12,5 +12,5 @@ In was also select as a Fulbright scholar from Poland (which I declined to work 
 
 In free time I like to cook and play board games with my friends.
 
-<img src="{{ '/Image.jpeg' | relative_url }}" alt="Igor Sadalski" class="align-center" style="max-width: 420px; width: 100%; height: auto;" />
+<img src="{{ '/images/igor-900.jpg' | relative_url }}" alt="Igor Sadalski" class="align-center" style="max-width: 420px; width: 100%; height: auto;" loading="lazy" decoding="async" />
 
