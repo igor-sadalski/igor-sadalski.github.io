@@ -34,10 +34,10 @@
       "endDate": "",
       "summary": "6th engineer at a Harvard-MIT spin-off building multi-modal foundation models for life sciences ($60M+ raised, led by Khosla Ventures).",
       "highlights": [
-        "Co-authored publications at ICML, ICLR, and Nature Machine Intelligence on pre-training strategies and measurement noise scaling laws for single-cell foundation models.",
-        "Designed and implemented pre-training and post-training pipelines for billion-parameter transformers on terabytes of single-cell genomics data across 32 AMD MI325x GPUs using PyTorch FSDP and SLURM.",
-        "Developed a reasoning LLM via rejection sampling for data curation, SFT for cold-start, and GRPO with vLLM rollouts — improving automated biological annotation quality.",
-        "Wrote high-throughput fused Triton kernels (sparse-gate embedding, Softmax, LayerNorm) for single-cell genomics, reducing training memory overhead and increasing GPU utilisation."
+        "Co-authored publications at ICML, ICLR, and Nature Machine Intelligence on pre-training strategies and measurement noise scaling laws for foundation models.",
+        "Designed and implemented pre-training and post-training pipelines for billion-parameter transformers on terabytes of data across 32 AMD MI325x GPUs using PyTorch FSDP and SLURM.",
+        "Deployed ML services to production on AWS: containerized React + FastAPI application with Docker, built MCP servers for model integration, integrated RAG pipelines for document retrieval, and served via Nginx.",
+        "Developed a reasoning LLM via rejection sampling for data curation, SFT for cold-start, and GRPO with vLLM rollouts using Hugging Face — improving automated biological annotation quality."
       ]
     }
   ],
@@ -75,7 +75,7 @@
     },
     {
       "name": "ML",
-      "keywords": ["PyTorch", "Hugging Face", "DeepSpeed", "FlashAttention", "FSDP", "DDP", "CUDA", "ROCm", "LangChain", "Optuna", "Composer", "Weights & Biases", "Triton"]
+      "keywords": ["PyTorch", "Hugging Face", "DeepSpeed", "FlashAttention", "FSDP", "DDP", "CUDA", "Optuna", "Weights & Biases", "Triton"]
     },
     {
       "name": "Web",
