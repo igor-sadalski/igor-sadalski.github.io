@@ -4,7 +4,7 @@
     "email": "igor.sadalski@gmail.com",
     "phone": "",
     "website": "https://igor-sadalski.github.io",
-    "summary": "Machine Learning Scientist at Somite.ai. Working on multi-modal foundational models for life sciences.",
+    "summary": "Machine Learning Scientist at Cellular Intelligence. Working on multi-modal foundation models for life sciences.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,13 +27,18 @@
   },
   "work": [
     {
-      "company": "Somite.ai",
+      "company": "Cellular Intelligence",
       "position": "Machine Learning Scientist",
       "website": "",
       "startDate": "2024-09",
       "endDate": "",
-      "summary": "Orchestrated large-scale distributed training and published papers working on multimodal foundational models for life sciences.",
-      "highlights": []
+      "summary": "6th engineer at a Harvard-MIT spin-off building multi-modal foundation models for life sciences ($60M+ raised, led by Khosla Ventures).",
+      "highlights": [
+        "Co-authored publications at ICML, ICLR, and Nature Machine Intelligence on pre-training strategies and measurement noise scaling laws for single-cell foundation models.",
+        "Designed and implemented pre-training and post-training pipelines for billion-parameter transformers on terabytes of single-cell genomics data across 32 AMD MI325x GPUs using PyTorch FSDP and SLURM.",
+        "Developed a reasoning LLM via rejection sampling for data curation, SFT for cold-start, and GRPO with vLLM rollouts — improving automated biological annotation quality.",
+        "Wrote high-throughput fused Triton kernels (sparse-gate embedding, Softmax, LayerNorm) for single-cell genomics, reducing training memory overhead and increasing GPU utilisation."
+      ]
     }
   ],
   "education": [
@@ -55,7 +60,7 @@
     },
     {
       "institution": "Imperial College London",
-      "area": "BEng Mechanical Engineering (Robotics)",
+      "area": "BEng Engineering (Robotics)",
       "studyType": "Bachelor of Engineering",
       "startDate": "2020-10",
       "endDate": "2023-06",
@@ -63,17 +68,40 @@
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Systems",
+      "keywords": ["AWS", "GCP", "Git", "Docker", "Linux", "SLURM"]
+    },
+    {
+      "name": "ML",
+      "keywords": ["PyTorch", "Hugging Face", "DeepSpeed", "FlashAttention", "FSDP", "DDP", "CUDA", "ROCm", "LangChain", "Optuna", "Composer", "Weights & Biases", "Triton"]
+    },
+    {
+      "name": "Web",
+      "keywords": ["FastAPI", "React", "TypeScript", "Nginx"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Measurement noise scaling laws for cellular representation learning",
-      "publisher": "Nature Biotechnology (in preparation)",
+      "name": "Large-Scale Benchmarking of Gene and Expression Encoding Strategies for Single-Cell Foundation Models",
+      "publisher": "ICLR 2026 Workshop on Generative AI for Genomics",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "First author. Presented at ICLR 2026 Workshop on Generative AI for Genomics.",
+      "authors": [
+        "Igor Sadalski"
+      ]
+    },
+    {
+      "name": "Scaling Laws for Noise for Cellular Representation Learning",
+      "publisher": "Nature Machine Intelligence (Under Review)",
       "releaseDate": "",
       "website": "",
-      "summary": "Co-first author with Gokul Gowri. In preparation for Nature Biotechnology.",
+      "summary": "Under review at Nature Machine Intelligence.",
       "authors": [
         "Gokul Gowri",
         "Igor Sadalski",
@@ -84,21 +112,11 @@
       ]
     },
     {
-      "name": "Encoding Strategies for Single-Cell Foundational Models: A Large-Scale Benchmark of Gene and Expression Tokenization",
-      "publisher": "ICML '26 (in preparation)",
-      "releaseDate": "",
-      "website": "",
-      "summary": "In preparation for ICML '26.",
-      "authors": [
-        "Igor Sadalski"
-      ]
-    },
-    {
-      "name": "Scaling up Measurement Noise Scaling Laws",
-      "publisher": "ICML Workshop on Multi-modal Foundational Models for Life Sciences '25",
+      "name": "Scaling Up Scaling Laws for Noise",
+      "publisher": "ICML 2025 Workshop on Multimodal Foundational Models for Life Sciences",
       "releaseDate": "2025",
-      "website": "",
-      "summary": "Presented at ICML Workshop on Multi-modal Foundational Models for Life Sciences '25.",
+      "website": "https://openreview.net/pdf?id=NO8UEX4dMb",
+      "summary": "Presented at ICML 2025 Workshop on Multi-modal Foundational Models for Life Sciences.",
       "authors": [
         "Igor Sadalski",
         "Dan Raviv",
@@ -109,10 +127,10 @@
     },
     {
       "name": "Generative Modelling of Residuals for Real-Time Risk-Sensitive Safety with Discrete-Time Control Barrier Functions",
-      "publisher": "International Conference on Robotics and Automation '24",
+      "publisher": "IEEE International Conference on Robotics and Automation (ICRA) 2024",
       "releaseDate": "2024",
-      "website": "",
-      "summary": "Published at ICRA '24.",
+      "website": "https://ieeexplore.ieee.org/document/10611355",
+      "summary": "Published at ICRA 2024.",
       "authors": [
         "Ryan K. Cosner",
         "Igor Sadalski",
@@ -123,45 +141,86 @@
     }
   ],
   "presentations": [],
-  "teaching": [],
-  "awards": [],
+  "teaching": [
+    {
+      "institution": "Polish AI Olympiad",
+      "position": "Volunteer",
+      "startDate": "2024-02",
+      "endDate": "2025-06",
+      "summary": "Contributed to the design of final-round problems for the Polish AI Olympiad."
+    },
+    {
+      "institution": "Open Avenues",
+      "position": "Volunteer Teacher",
+      "startDate": "2024-09",
+      "endDate": "2025-09",
+      "summary": "Designed and delivered weekly machine learning and AI classes for community college students across the US."
+    },
+    {
+      "institution": "Imperial Driverless",
+      "position": "Founder",
+      "startDate": "2021-09",
+      "endDate": "2022-09",
+      "summary": "Founded and led a team of 20+ students building autonomous driving software; coordinated perception, planning, and control, and competed on the Silverstone F1 track."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Fulbright Scholarship",
+      "date": "2024",
+      "awarder": "Fulbright Program",
+      "summary": "One of only three recipients in Poland (declined to work in industry)."
+    },
+    {
+      "title": "MSc Distinction",
+      "date": "2024",
+      "awarder": "Imperial College London",
+      "summary": "Highest classification for UK master's degree."
+    },
+    {
+      "title": "Best Student in Poland",
+      "date": "2020",
+      "awarder": "Polish Ministry of Education",
+      "summary": "Perfect score in matriculation exams."
+    }
+  ],
   "leadership": [],
   "research": [
     {
       "institution": "Harvard University",
-      "position": "Research Assistant",
+      "position": "Visiting Researcher",
       "supervisor": "Prof. Stephanie Gil",
       "startDate": "2024-04",
       "endDate": "2024-09",
-      "summary": "Investigated techniques for performing sub-quadratic attention; based on this work, designed a long-context time series transformer-based model. The model was later used to proactively route shuttle buses around Harvard campus."
+      "summary": "Designed efficient transformer attention mechanisms for spatio-temporal demand forecasting, applied to shuttle bus scheduling on the Harvard campus."
     },
     {
       "institution": "Caltech",
-      "position": "Research Assistant",
+      "position": "Undergraduate Researcher",
       "supervisor": "Prof. Aaron Ames",
       "startDate": "2023-06",
       "endDate": "2023-08",
-      "summary": "Designed conditional variational autoencoders and diffusion models to obtain data-driven error estimates from flight data. These models were later used to improve drone flight performance and safety."
+      "summary": "Developed CVAEs and diffusion models to learn residual dynamics for drones, enabling tighter safety guarantees with discrete-time control barrier functions; resulted in an ICRA 2024 publication."
     },
     {
       "institution": "Caltech",
-      "position": "Research Assistant",
+      "position": "Undergraduate Researcher",
       "supervisor": "Prof. Aaron Ames",
       "startDate": "2022-06",
       "endDate": "2022-08",
-      "summary": "Sped up model predictive controller running on robotic hardware by rewriting matrix operations using optimized C++ library."
+      "summary": "Accelerated model predictive control solvers by implementing custom matrix operations, reducing per-step computation time for real-time robotic control."
     }
   ],
   "openSource": [
     {
-      "name": "Stanford Biomni - General-Purpose Biomedical AI Agent",
+      "name": "Stanford Biomni — General-Purpose Biomedical AI Agent",
       "date": "2025",
-      "description": "Main contribution: Implemented state-of-the-art foundational models (ESM-2, Transformer, scGPT, STATE) with standardized interfaces."
+      "description": "Implemented state-of-the-art foundation models (ESM-2, Transformer, scGPT, STATE) with standardized interfaces (Python, LangChain)."
     },
     {
-      "name": "Various projects at MIT Hackers Club (Sundai.ai)",
+      "name": "MIT Hackers Club (Sundai.ai) — Various Projects",
       "date": "2024",
-      "description": "Created a multiplayer LLM-powered game using Next.js, TypeScript, Tailwind, Convex, and Vercel."
+      "description": "Built a multiplayer LLM-powered game (Next.js, TypeScript, Tailwind, Convex, Vercel)."
     }
   ]
 }
