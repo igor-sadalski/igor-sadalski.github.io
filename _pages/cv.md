@@ -28,7 +28,6 @@ redirect_from:
 * Co-authored publications at **ICML, ICLR, and Nature Machine Intelligence** on pre-training strategies and measurement noise scaling laws for single-cell foundation models.
 * Designed and implemented pre-training and post-training pipelines for **billion-parameter transformers** on terabytes of single-cell genomics data across **32 AMD MI325x GPUs** using PyTorch FSDP and SLURM.
 * Developed a reasoning LLM via rejection sampling for data curation, **SFT** for cold-start, and **GRPO** with vLLM rollouts — improving automated biological annotation quality.
-* Wrote high-throughput fused **Triton kernels** (sparse-gate embedding, Softmax, LayerNorm) for single-cell genomics, reducing training memory overhead and increasing GPU utilisation.
 
 ## Research Experience
 
