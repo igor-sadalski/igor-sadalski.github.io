@@ -23,19 +23,19 @@ repository               : "igor-sadalski/igor-sadalski.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_pic.png"
+  avatar           : "igor-profile.jpg"
   name             : "Igor Sadalski"
-  pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Scientist at Cellular Intelligence, working on multimodal foundational models (for life sciences) and AI co-scientist."
-  location         : "Boston, MA"
-  employer         : "Cellular Intelligence"
+  pronouns         : # example: "she/her"
+  bio              : 'Email: <a href="mailto:igor.s14@mit.edu">igor.s14@mit.edu</a>'
+  location         : "Boston, Massachusetts"
+  employer         : # Organization
   uri              : # URL
-  email            : "igor.sadalski@gmail.com" 
+  email            : # shown in the bio line above
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=CH4XohkAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
@@ -222,7 +222,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false # listed on the home page only; no per-paper pages
     permalink: /:collection/:path/
   portfolio:
     output: true

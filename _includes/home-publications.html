@@ -1,0 +1,39 @@
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+{%- assign other_pubs = pubs | where_exp: "pub", "pub.selected != true" -%}
+<section class="publications-section">
+{%- if other_pubs.size > 0 %}
+<input id="publications-filter-selected" class="filter-toggle__input filter-toggle__input--a" type="radio" name="publications-filter" checked aria-label="Show selected publications">
+<input id="publications-filter-all" class="filter-toggle__input filter-toggle__input--b" type="radio" name="publications-filter" aria-label="Show all publications">
+{%- endif %}
+<div class="publications-section__header">
+<h2 id="publications">Publications</h2>
+{%- if other_pubs.size > 0 %}
+<div class="filter-toggle" aria-label="Publication list filter">
+<label class="filter-toggle__option filter-toggle__option--a" for="publications-filter-selected">Selected Publications</label>
+<label class="filter-toggle__option filter-toggle__option--b" for="publications-filter-all">All Publications</label>
+</div>
+{%- endif %}
+</div>
+<div class="publications-section__list">
+{%- for pub in pubs %}
+<article class="publication-home"{% if pub.selected %} data-selected-publication="true"{% endif %}>
+<h3 class="publication-home__title">{{ pub.title }}</h3>
+<p class="publication-home__authors">{{ pub.authors | replace: site.author.name, '<strong class="publication-home__me">Igor Sadalski</strong>' }}</p>
+<p class="publication-home__meta"><span class="publication-home__venue">{{ pub.venue }}</span>{% if pub.year %}<span class="publication-home__year">{{ pub.year }}</span>{% endif %}</p>
+{%- if pub.award %}
+<p class="publication-home__award">{{ pub.award }}</p>
+{%- endif %}
+{%- if pub.links or pub.note %}
+<p class="publication-home__links">
+{%- for link in pub.links %}{% if link.url contains "://" %}{% assign href = link.url %}{% else %}{% assign href = link.url | relative_url %}{% endif %}
+<a class="publication-home__link" href="{{ href }}">{{ link.name }}</a>
+{%- endfor %}
+{%- if pub.note %}
+<span class="publication-home__note">{{ pub.note }}</span>
+{%- endif %}
+</p>
+{%- endif %}
+</article>
+{%- endfor %}
+</div>
+</section>

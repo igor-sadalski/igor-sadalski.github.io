@@ -1,0 +1,11 @@
+# News items for the home page, newest first.
+# `text` accepts Markdown. Items with `recent: true` stay visible under the
+# "Recent" filter; the All/Recent switch appears once any item is not recent.
+
+- date: Nov 2026
+  text: Our paper *A measurement noise scaling law for cellular representation learning* was accepted to Nature Machine Intelligence!
+  recent: true
+
+- date: Sep 2026
+  text: Started my PhD at MIT, advised by Prof. [Wojciech Matusik](https://people.csail.mit.edu/wojciech/).
+  recent: true

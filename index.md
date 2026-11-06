@@ -1,17 +1,25 @@
 ---
-title: "Igor Sadalski"
 layout: single
 author_profile: true
+redirect_from:
+  - /about/
+  - /publications/
+  - /cv/
+  - /resume/
+  - /publication/2024-icra-generative-modelling-residuals
+  - /publication/2025-icml-workshop-scaling-noise-scaling-laws
+  - /publication/2025-nature-biotech-measurement-noise-scaling
+  - /publication/2026-icml-encoding-strategies-single-cell
 ---
-I'm a Machine Learning Scientist at [Cellular Intelligence](https://somite.ai), a Harvard-MIT spin-off building multi-modal foundation models for life sciences ($60M+ raised, led by Khosla Ventures). As the **6th engineer**, I design and implement pre-training and post-training pipelines for billion-parameter transformers on terabytes of data across 32 AMD MI325x GPUs using PyTorch FSDP and SLURM. I've co-authored publications at **ICML, ICLR, and Nature Machine Intelligence** on pre-training strategies and measurement noise scaling laws for foundation models.
 
-I hold a Master of Science with Distinction in Computer Science (Machine Learning) from Imperial College London. I've previously conducted research at Harvard University (with [Prof. Stephanie Gil](https://seas.harvard.edu/person/stephanie-gil)) on transformer attention mechanisms for spatio-temporal forecasting, and at Caltech (with [Prof. Aaron Ames](http://ames.caltech.edu/)) on CVAEs and diffusion models for safe robotic control.
+<section id="about" class="about-section" markdown="1">
 
-I was selected as a Fulbright Scholar from Poland (one of only three recipients) — which I declined to work in industry. In 2020, I was the top student in Poland, achieving a perfect score in matriculation exams.
+I'm a first-year PhD student at MIT, advised by Professor [Wojciech Matusik](https://people.csail.mit.edu/wojciech/) in the [Computational Design & Fabrication Group](https://cdfg.mit.edu/) at MIT CSAIL, which builds AI for the physical world. My research focuses on **recursive self-improvement for scientific domains**.
 
-**H1B visa holder | willing to relocate (currently in Boston)**
+Before my PhD, I worked in machine learning for two years as a Research Scientist and the sixth employee at [Cellular Intelligence](https://www.cellularintelligence.com/) (raised $60M+), training multimodal foundation models for the life sciences. Before that, I earned a BEng in Mechanical Engineering and an MSc in Computer Science with Distinction from [Imperial College London](https://www.imperial.ac.uk/). Along the way, I did research at Harvard with [Prof. Stephanie Gil](https://seas.harvard.edu/person/stephanie-gil) on transformer attention for spatio-temporal forecasting, and at Caltech with [Prof. Aaron Ames](http://ames.caltech.edu/) on generative models for safe robotic control.
 
-In free time I like to cook and play board games with my friends.
+</section>
 
-<img src="{{ '/images/igor-900.jpg' | relative_url }}" alt="Igor Sadalski" class="align-center" style="max-width: 420px; width: 100%; height: auto;" loading="lazy" decoding="async" />
+{% include home-news.html %}
 
+{% include home-publications.html %}

@@ -1,0 +1,22 @@
+{%- assign news = site.data.news -%}
+{%- assign older_news = news | where_exp: "item", "item.recent != true" -%}
+<section class="news-section">
+{%- if older_news.size > 0 %}
+<input id="news-filter-recent" class="filter-toggle__input filter-toggle__input--a" type="radio" name="news-filter" checked aria-label="Show recent news">
+<input id="news-filter-all" class="filter-toggle__input filter-toggle__input--b" type="radio" name="news-filter" aria-label="Show all news">
+{%- endif %}
+<div class="news-section__header">
+<h2 id="news">News</h2>
+{%- if older_news.size > 0 %}
+<div class="filter-toggle" aria-label="News list filter">
+<label class="filter-toggle__option filter-toggle__option--a" for="news-filter-recent">Recent</label>
+<label class="filter-toggle__option filter-toggle__option--b" for="news-filter-all">All</label>
+</div>
+{%- endif %}
+</div>
+<div class="news-list">
+{%- for item in news %}
+<div class="news__row"{% if item.recent %} data-recent-news="true"{% endif %}><span class="news__date">{{ item.date }}</span><span class="news__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span></div>
+{%- endfor %}
+</div>
+</section>
