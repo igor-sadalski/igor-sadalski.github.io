@@ -12,27 +12,6 @@ $home-tint-strong : rgba(128, 128, 128, 0.16);
   scroll-margin-top: calc(#{$masthead-height} + 1em);
 }
 
-/* Small monogram next to the site title in the masthead */
-.masthead__logo {
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  margin: -4px 0.55em 0 0;
-  border-radius: 6px;
-  vertical-align: middle;
-}
-
-/* on phones the logo alone stands in for the name, so both nav links fit */
-@media (max-width: 599px) {
-  .masthead__brand-name {
-    display: none;
-  }
-
-  .masthead__logo {
-    margin-right: 0;
-  }
-}
-
 /* Section headers, with an optional two-way filter on the right */
 .news-section__header,
 .publications-section__header {
