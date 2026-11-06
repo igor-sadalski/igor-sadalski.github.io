@@ -19,7 +19,7 @@
 <article class="publication-home"{% if pub.selected %} data-selected-publication="true"{% endif %}>
 <h3 class="publication-home__title">{{ pub.title }}</h3>
 <p class="publication-home__authors">{{ pub.authors | replace: site.author.name, '<strong class="publication-home__me">Igor Sadalski</strong>' }}</p>
-<p class="publication-home__meta"><span class="publication-home__venue">{{ pub.venue }}</span>{% if pub.year %}<span class="publication-home__year">{{ pub.year }}</span>{% endif %}</p>
+<p class="publication-home__meta"><span class="publication-home__venue">{{ pub.venue }}</span>{% if pub.date %}<span class="publication-home__year">{{ pub.date | date: "%b %Y" }}</span>{% elsif pub.year %}<span class="publication-home__year">{{ pub.year }}</span>{% endif %}</p>
 {%- if pub.award %}
 <p class="publication-home__award">{{ pub.award }}</p>
 {%- endif %}
