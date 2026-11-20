@@ -3,6 +3,10 @@
 # "Recent" filter; the All/Recent switch appears once any item is not recent.
 
 - date: Nov 2026
+  text: Our paper *Measurement Scaling Loss for Representation Learning* was accepted and will be published soon!
+  recent: true
+
+- date: Nov 2026
   text: Our paper *A measurement noise scaling law for cellular representation learning* was accepted to Nature Machine Intelligence!
   recent: true
 
