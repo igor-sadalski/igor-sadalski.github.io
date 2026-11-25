@@ -1,9 +1,7 @@
-# Links in the header of the website, in order. The site is a single page,
-# so each link jumps to a section of the home page.
+# Links in the header of the website, in order. Currently none: the header
+# only shows the site title. Example entry:
+#
+#   - title: "Publications"
+#     url: /#publications
 
-main:
-  - title: "About"
-    url: /#about
-
-  - title: "Publications"
-    url: /#publications
+main: []

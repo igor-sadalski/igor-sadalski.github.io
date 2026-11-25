@@ -26,11 +26,11 @@ author:
   avatar           : "igor-profile.jpg"
   name             : "Igor Sadalski"
   pronouns         : # example: "she/her"
-  bio              : 'Email: <a href="mailto:igors14@mit.edu">igors14@mit.edu</a>'
+  bio              :
   location         : "Boston, Massachusetts"
   employer         : # Organization
   uri              : # URL
-  email            : # shown in the bio line above
+  email            : "igors14@mit.edu"
 
   # Academic websites
   academia         : # URL

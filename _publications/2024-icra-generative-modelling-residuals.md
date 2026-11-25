@@ -6,6 +6,8 @@ authors: "Ryan K. Cosner, Igor Sadalski, Jana K. Woo, Preston Culbertson, Aaron 
 venue: "ICRA"
 year: 2024
 selected: true
+image: /images/publications/generative-modeling-residuals.webp
+image_alt: "Drone descending toward an unsafe region, with a generative model feeding a risk-sensitive controller"
 links:
   - name: ArXiv
     url: https://arxiv.org/abs/2311.05802
