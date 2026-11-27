@@ -9,8 +9,8 @@ selected: true
 image: /images/publications/generative-modeling-residuals.webp
 image_alt: "Drone descending toward an unsafe region, with a generative model feeding a risk-sensitive controller"
 links:
-  - name: ArXiv
-    url: https://arxiv.org/abs/2311.05802
+  - name: IEEE
+    url: https://ieeexplore.ieee.org/document/10611355
   - name: Project page
     url: https://www.rkcosner.com/research/4-ICRA-GenerativeModeling/
 ---

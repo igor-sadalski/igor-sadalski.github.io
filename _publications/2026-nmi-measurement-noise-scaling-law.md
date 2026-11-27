@@ -9,8 +9,6 @@ selected: true
 image: /images/publications/measurement-noise-scaling-law.webp
 image_alt: "Information curves from seven metrics collapse onto a single noise scaling law"
 links:
-  - name: Nature
+  - name: Nature MI
     url: https://www.nature.com/articles/s42256-026-01332-7
-  - name: ArXiv
-    url: https://arxiv.org/abs/2503.02726
 ---
