@@ -3,6 +3,9 @@
 # go behind the "Older news" button, which appears once there are five items.
 
 - date: Nov 2026
+  text: "[Measurement Noise Scaling Law](https://www.nature.com/articles/s42256-026-01332-7) is published in Nature Machine Intelligence."
+
+- date: Nov 2026
   text: "[AutoAssumption](https://arxiv.org/abs/2611.14844) is released on arXiv."
 
 - date: Oct 2026
